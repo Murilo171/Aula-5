@@ -1,0 +1,12 @@
+body{
+    background-color: dodgerblue;
+}
+
+#conteudo {
+    background-color: white;
+    height: 700px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
