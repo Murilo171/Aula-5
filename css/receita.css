@@ -1,12 +1,58 @@
-body{
-    background-color: dodgerblue;
+body {
+    background-color: blue;
+}
+.main {
+    background-color: rgb(255, 255, 255);
+    height: 0 auto;
+    width: 90%;
+    max-width: 1500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 2px  2px 2px black(0, 0, 0, 0.576);
 }
 
-#conteudo {
-    background-color: white;
-    height: 700px;
+#texto {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#alinhamento {
+    height: 500px;
     width: 90%;
     margin: 0 auto;
 }
 
+#img {
+    height: 200px;
+    background: url(../pexels-nikolaos-dimou-1250289.jpg)no-repeat center center/cover;
+    border-radius: 10px;
+}
+#legenda {
+    text-align: right;
+}
+
+#footer {
+    height: 70px;
+    border-radius: ;
+
+}
+
+.col30 {
+    width: 30%;
+    border: 1px solid red;
+}
+
+.col70 {
+    width: 70%;
+    border: 1px solid blue;
+}
+
+.row {
+    border: 1px solid purple;
+    display: flex;
+}
+
+input {
+    width: 100%;
+}
 
